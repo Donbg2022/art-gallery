@@ -21,13 +21,15 @@ const imgHover = (e) => {
   let name = e.target.id
   if (name.length !== 0){ 
     document.querySelector(`#${name}`).style.width = '110%'
-
+    document.querySelector(`.${name}`).style.display = 'block'
   }
 }
   const imgDown = (e) => {
     let name = e.target.id
     if (name.length !== 0){ 
       document.querySelector(`#${name}`).style.width = '100%'
+      document.querySelector(`.${name}`).style.display = 'none'
+
   }
 }
 images.addEventListener('mouseover', imgHover)
