@@ -90,8 +90,9 @@ nav button{
     text-align: center;
   }
   .me-img{
-    margin-left: 1rem;
     margin-right: 1rem;
+    margin-left: 1rem;
+
   }
   .me-text{
     margin: 1rem;
@@ -100,6 +101,8 @@ nav button{
 @media screen and (min-width: 450px) {
   .about{
     flex-direction: row;
+    margin-left: 10%;
+
   }
   
 }

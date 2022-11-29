@@ -10,3 +10,26 @@ burger.addEventListener('click', function(){
     return document.querySelector('#reactivelinks').style.display = 'block'
   }
 })
+
+
+
+const images = document.querySelector('.gallery-img')
+
+
+
+const imgHover = (e) => {
+  console.log(e.toElement.name)
+  if (e.toElement.name === '1'){
+    console.log('yes')
+  }else{
+    console.log('no')
+  }
+
+  //possibly use case/switch instead of if
+
+
+  img.style.width === 200px
+  
+
+}
+images.addEventListener('mouseover', imgHover)
