@@ -127,6 +127,17 @@ nav button:hover{
 .gallery-img img{
   width: 100%;
 }
+.img-text{
+  position: relative;
+}
+.img-identify{
+  position: absolute;
+  color: white;
+  font: 400;
+  font-size: xx-large;
+  background-color: rgb(90, 107, 65);
+  display: none;
+}
 
 @media screen and (min-width: 500px){
   .gallery-img{
@@ -143,3 +154,17 @@ nav button:hover{
     columns: 4;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
