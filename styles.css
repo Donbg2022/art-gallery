@@ -15,6 +15,7 @@ nav{
 nav img{
   width: 100px;
   margin-left: 5px;
+  margin-top: -5px;
 }
 .links {
   list-style: none;
@@ -105,8 +106,16 @@ nav button{
 
 
 /* gallery */
+.gallery{
+  font-size: xx-large;
+    font-weight: 400;
+    margin: 2rem auto 2rem auto;
+    border-bottom: 1px solid lightgray;
+    max-width: 40%;
+    text-align: center;
+}
 .gallery-img{
-  margin: 0 10px 0 10px;
+  margin: 0 15% 0 15%;
   gap: 20px;
 }
 .gallery-img img{
