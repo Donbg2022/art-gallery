@@ -123,12 +123,14 @@ nav button:hover{
 .gallery-img{
   margin: 0 15% 0 15%;
   gap: 20px;
+  border: 1px solid black;
 }
 .gallery-img img{
   width: 100%;
 }
 .img-text{
   position: relative;
+
 }
 .img-identify{
   position: absolute;
