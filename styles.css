@@ -76,4 +76,55 @@ nav button{
 
 
   /* about */
+  .about{
+    display: flex;
+    flex-direction: column;
+  }
+  #about-me{
+    font-size: xx-large;
+    font-weight: 400;
+    margin: 2rem auto 2rem auto;
+    border-bottom: 1px solid lightgray;
+    max-width: 40%;
+    text-align: center;
+  }
+  .me-img{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .me-text{
+    margin: 1rem;
+  }
+
+@media screen and (min-width: 450px) {
+  .about{
+    flex-direction: row;
+  }
   
+}
+
+
+/* gallery */
+.gallery-img{
+  margin: 0 10px 0 10px;
+  gap: 20px;
+}
+.gallery-img img{
+  width: 100%;
+}
+
+@media screen and (min-width: 500px){
+  .gallery-img{
+    columns: 2;
+  }
+}
+@media screen and (min-width: 650px){
+  .gallery-img{
+    columns: 3;
+  }
+}
+@media screen and (min-width: 800px){
+  .gallery-img{
+    columns: 4;
+  }
+}
