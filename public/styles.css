@@ -166,4 +166,19 @@ nav button:hover{
 
 
 
+.img-list-text{
+  border-bottom: 2px solid rgb(203, 202, 202);
+  margin-bottom: 10px;
+}
+.img-list-writing{
+  display: inline;
+}
+.img-list-text img{
+  margin-left: 5%;
+}
+
+
+
+
+
 
