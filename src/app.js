@@ -23,6 +23,7 @@ const imgHover = (e) => {
   if (name.length !== 0){ 
     document.querySelector(`#${name}`).style.width = '110%'
     document.querySelector(`.${name}`).style.display = 'block'
+
   }
 }
   const imgDown = (e) => {
@@ -35,3 +36,10 @@ const imgHover = (e) => {
 }
 images.addEventListener('mouseover', imgHover)
 images.addEventListener('mouseout', imgDown)
+
+
+const galleryRedirect = document.querySelector('.gallery-img')
+
+galleryRedirect.addEventListener('click', () =>{
+  location.assign('./order.html')
+})

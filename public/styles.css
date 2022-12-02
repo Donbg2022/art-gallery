@@ -159,35 +159,6 @@ nav button:hover{
   }
 }
 
-/* order form */
-.order{
-  background-color: rgb(199, 208, 203);
-}
-.order div{
-  font-size: xx-large;
-  font-weight: 400;
-  margin: 2rem auto 2rem auto;
-  text-align: left;
-  max-width: 100%;
-}
-
-.form{
-  max-width: 30%;
-  margin: auto auto 100px auto;
-  background-color: rgba(96, 189, 137, 0.421);
-  
-}
-
-input{
-  border: none;
-  border-bottom: 1px solid gray;
-  padding: .5rem;
-}
-
-.form button{
-  display: block;
-}
-
 
 
 
