@@ -23,6 +23,7 @@ const imgHover = (e) => {
   if (name.length !== 0){ 
     document.querySelector(`#${name}`).style.width = '110%'
     document.querySelector(`.${name}`).style.display = 'block'
+    document.body.style.cursor = 'pointer'
 
   }
 }
@@ -31,6 +32,8 @@ const imgHover = (e) => {
     if (name.length !== 0){ 
       document.querySelector(`#${name}`).style.width = '100%'
       document.querySelector(`.${name}`).style.display = 'none'
+      document.body.style.cursor = 'default'
+
 
   }
 }
