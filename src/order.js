@@ -4,8 +4,7 @@ const imgList = document.querySelector('.img-list')
 const imgHover = (e) => {
   let name = e.target.id
   if (name.length !== 0){ 
-    
-    document.querySelector('.buying-info').style.display = 'block'
+    document.querySelector(`.${name}`).style.display = 'block'
 
   }
 }
@@ -13,8 +12,7 @@ const imgHover = (e) => {
     let name = e.target.id
     if (name.length !== 0){ 
       
-      document.querySelector('.buying-info').style.display = 'none'
-
+      document.querySelector(`.${name}`).style.display = 'none'
 
 
   }
