@@ -187,7 +187,7 @@ nav button:hover, .links:hover{
 }
 .img-list-text img:hover{
   backdrop-filter: blur(10px);
-  filter: blur(4px);
+  filter: blur(20px);
   transition: 0.5s ease-in-out;
 
 }
@@ -196,7 +196,6 @@ nav button:hover, .links:hover{
 .buying-info{
   margin-top: -15rem;
   margin-bottom: 7.5rem;
-  background-color: rgba(2, 1, 1, 0.4);
   display: none;
   z-index: 10;
   
