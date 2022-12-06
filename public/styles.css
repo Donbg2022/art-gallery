@@ -35,8 +35,9 @@ nav button{
   border: none;
   font-size: large;
 }
-nav button:hover{
-  color: aqua;
+nav button:hover, .links:hover{
+  color: rgb(74, 69, 23);
+  cursor: grab;
 }
 #burger{
   font-size: xx-large;
