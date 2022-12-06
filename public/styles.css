@@ -158,24 +158,38 @@ nav button:hover{
     columns: 4;
   }
 }
-
-
-
-
-
-
-
-
 .img-list-text{
   border-bottom: 2px solid rgb(203, 202, 202);
   margin-bottom: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
-.img-list-writing{
+.img-list-head{
   display: inline;
+  font-weight: 100;
+  color: rgb(134, 119, 37);
+  text-decoration: underline;
+  
+  
 }
-.img-list-text img{
-  margin-left: 5%;
+.img-list-text img, .buying-info{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 800px;
+  
+
 }
+
+
+
+.buying-info{
+  margin-top: -5.8rem;
+  background-color: rgba(2, 1, 1, 0.644);
+  
+}
+
 
 
 

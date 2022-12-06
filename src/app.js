@@ -15,6 +15,7 @@ burger.addEventListener('click', function(){
 
 const images = document.querySelector('.gallery-img')
 const imgIdentity = document.querySelector('.img-identifier')
+ 
 
 
 //event listener functions to make hover over images enlarge image and display id
@@ -35,8 +36,10 @@ const imgHover = (e) => {
       document.body.style.cursor = 'default'
 
 
+
   }
 }
+//initializing eventlisteners
 images.addEventListener('mouseover', imgHover)
 images.addEventListener('mouseout', imgDown)
 
