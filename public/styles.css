@@ -5,7 +5,13 @@
 }
 
 /* navbar */
+#insta{
+  font-size: 25px;
+  padding-top: 22px;
+  padding-right: 10px;
+  color: rgb(134, 119, 37);
 
+}
 nav{
   display: flex;
   justify-content: space-between;
