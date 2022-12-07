@@ -11,10 +11,7 @@ const imgHover = (e) => {
   const imgDown = (e) => {
     let name = e.target.id
     if (name.length !== 0){ 
-      
       document.querySelector(`.${name}`).style.display = 'none'
-
-
   }
 }
 
