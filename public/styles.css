@@ -189,25 +189,36 @@ nav button:hover, .links:hover{
   margin-right: auto;
   width: 100%;
   max-width: 600px;
-
+  display: block;
+  margin-bottom: 10px;
 }
 .img-list-text img:hover{
   backdrop-filter: blur(10px);
   filter: blur(20px);
   transition: 0.5s ease-in-out;
-
 }
 
 
 .buying-info{
-  margin-top: -15rem;
-  margin-bottom: 7.5rem;
+  margin-top: -12rem;
   display: none;
-  z-index: 10;
-  
+  z-index: 10;  
 }
-
-
+@media screen and (min-width: 330px)  {
+  .buying-info{
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 390px)  {
+  .buying-info{
+    margin-bottom: 3.3rem;
+  }
+}
+@media screen and (min-width: 520px)  {
+  .buying-info{
+    margin-bottom: 4.5rem;
+  }
+}
 
 
 
