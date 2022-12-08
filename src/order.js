@@ -15,3 +15,5 @@ window.addEventListener('mouseover', (e) => {
     document.querySelector('.buying-info').style.display = 'none'
   }
 })
+
+imgList.addEventListener('mouseover', imgHover)

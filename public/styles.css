@@ -33,15 +33,8 @@ nav img{
 a{
   text-decoration: none;
 }
-nav button{
-  margin: 23px 10px 10px 0px;
-  width: 8rem;
-  color: rgb(134, 119, 37);
-  background-color: white;
-  border: none;
-  font-size: large;
-}
-nav button:hover, .links:hover{
+
+.links:hover, #insta:hover, #burger:hover{
   color: rgb(74, 69, 23);
   cursor: grab;
 }
