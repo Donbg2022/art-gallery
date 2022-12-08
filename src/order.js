@@ -12,7 +12,10 @@ const imgHover = (e) => {
 window.addEventListener('mouseover', (e) => {
   console.log(e)
   if(e.target.nodeName === 'BODY'){
-    document.querySelector('.buying-info').style.display = 'none'
+    let textDown = document.querySelectorAll('.buying-info')
+    textDown.forEach(text => {
+      text.style.display = 'none'
+    })
   }
 })
 
