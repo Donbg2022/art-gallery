@@ -19,9 +19,8 @@ nav{
 
 }
 nav img{
-  width: 100px;
+  width: 80px;
   margin-left: 5px;
-  margin-top: -5px;
 }
 .links {
   list-style: none;
@@ -41,11 +40,12 @@ a{
   color: rgb(74, 69, 23);
   cursor: grab;
 }
+
 #burger{
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: 100;
   color: rgb(134, 119, 37);
-  margin: 25px 30px 40px 30px;
+  padding: 22px 30px 40px 30px;
   display: none;
 }
 @media (max-width: 850px){
