@@ -85,7 +85,6 @@ a{
   /* about */
   .about{
     display: flex;
-    flex-direction: column;
   }
   #about-me{
     font-size: xx-large;
@@ -98,18 +97,19 @@ a{
   .me-img{
     margin-right: 1rem;
     margin-left: 1rem;
-
+    max-width: 350px
   }
   .me-text{
     margin: 1rem;
     max-width: 80%;
   }
 
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 750px) {
   .about{
-    flex-direction: row;
-    margin-left: 10%;
+    flex-direction: column;
+    align-items: center; 
   }
+  
 }
 @media screen and (min-width: 1300px){
   .me-text{
@@ -141,7 +141,8 @@ a{
   position: absolute;
   color: white;
   font: 400;
-  font-size: xx-large;
+  font-size: x-large;
+  padding: 1px;
   background-color: rgb(90, 107, 65);
   display: none;
 }
