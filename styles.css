@@ -101,7 +101,7 @@ a{
   .me-img{
     margin-right: 1rem;
     margin-left: 1rem;
-    max-width: 350px
+    width: 350px;
   }
   .me-text{
     margin: 1rem;
@@ -129,6 +129,7 @@ a{
 }
 .gallery-img img{
   width: 100%;
+  
 }
 .img-text{
   position: relative;
@@ -142,6 +143,7 @@ a{
   padding: 1px;
   background-color: rgb(90, 107, 65);
   display: none;
+  z-index: 10;
 }
 
 @media screen and (min-width: 500px){

@@ -22,7 +22,8 @@ const imgIdentity = document.querySelector('.img-identifier')
 const imgHover = (e) => {
   let name = e.target.id
   if (name.length !== 0){ 
-    document.querySelector(`#${name}`).style.width = '110%'
+    document.querySelector(`#${name}`).style.width = '101%'
+    document.querySelector(`#${name}`).style.filter = 'blur(2px)'
     document.querySelector(`.${name}`).style.display = 'block'
     document.body.style.cursor = 'pointer'
 
@@ -34,6 +35,7 @@ const imgDown = (e) => {
     let name = e.target.id
     if (name.length !== 0){ 
       document.querySelector(`#${name}`).style.width = '100%'
+      document.querySelector(`#${name}`).style.filter = 'blur(0)'
       document.querySelector(`.${name}`).style.display = 'none'
       document.body.style.cursor = 'default'
 
