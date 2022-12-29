@@ -125,7 +125,7 @@ a{
 
 .gallery-img{
   margin: 0 15% 0 15%;
-  gap: 20px;
+  gap: 10px;
 }
 .gallery-img img{
   width: 100%;
