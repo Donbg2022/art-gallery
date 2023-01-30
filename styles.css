@@ -81,6 +81,14 @@ a{
     height: 100vh;
   }
 
+  .nav-container{
+    background-image: url('../images/img7-320.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
 
   /* about */
   
