@@ -170,7 +170,7 @@ a{
   }
 }
 .img-list-text{
-  /* margin-bottom: 10px; */
+
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -205,15 +205,13 @@ a{
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  /* columns: 2; */
-  /* column-gap: 5px; */
-
 }
 
 .buying-info{
   margin-top: -12rem;
   display: none;
   z-index: 10;  
+  background-color: rgba(0, 0, 0, 0.142);
   
 }
 @media screen and (min-width: 330px)  {
